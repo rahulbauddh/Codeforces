@@ -9,9 +9,9 @@ signed  main()
     {
         int n;
         cin>>n;
-        string s;
-       
-        cin>>s;
+        string s(n,' ');
+       for(int i=0;i<n;i++)
+        cin>>s[i];
 
          int open = 0, sum = 0;
          stack<int>st;
